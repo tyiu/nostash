@@ -1,5 +1,5 @@
 //
-//  HelloView.swift
+//  MainView.swift
 //  Nostore
 //
 //  Created by Ryan Breen on 2/17/23.
@@ -38,8 +38,8 @@ struct MainView: View {
                 #endif
                 .padding(.all, 3.0)
                 
-                NavigationLink("Getting Started: MacOS") {
-                    GettingStartedmacOS()
+                NavigationLink("Getting Started: Mac") {
+                    GettingStartedMac()
                 }
                 #if macOS
                 .buttonStyle(.link)

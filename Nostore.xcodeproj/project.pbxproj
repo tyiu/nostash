@@ -79,12 +79,12 @@
 		944A6E40299F46D30032C2E3 /* NostoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E3E299F46D30032C2E3 /* NostoreApp.swift */; };
 		944A6E4329A081950032C2E3 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4229A081950032C2E3 /* PrivacyPolicyView.swift */; };
 		944A6E4429A081950032C2E3 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4229A081950032C2E3 /* PrivacyPolicyView.swift */; };
-		944A6E4629A11C3A0032C2E3 /* GettingStartiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4529A11C3A0032C2E3 /* GettingStartiPhone.swift */; };
-		944A6E4729A11C3A0032C2E3 /* GettingStartiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4529A11C3A0032C2E3 /* GettingStartiPhone.swift */; };
+		944A6E4629A11C3A0032C2E3 /* GettingStartediPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4529A11C3A0032C2E3 /* GettingStartediPhone.swift */; };
+		944A6E4729A11C3A0032C2E3 /* GettingStartediPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4529A11C3A0032C2E3 /* GettingStartediPhone.swift */; };
 		944A6E4929A11C640032C2E3 /* GettingStartediPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4829A11C640032C2E3 /* GettingStartediPad.swift */; };
 		944A6E4A29A11C640032C2E3 /* GettingStartediPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4829A11C640032C2E3 /* GettingStartediPad.swift */; };
-		944A6E4C29A11C770032C2E3 /* GettingStartedmacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4B29A11C770032C2E3 /* GettingStartedmacOS.swift */; };
-		944A6E4D29A11C770032C2E3 /* GettingStartedmacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4B29A11C770032C2E3 /* GettingStartedmacOS.swift */; };
+		944A6E4C29A11C770032C2E3 /* GettingStartedMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4B29A11C770032C2E3 /* GettingStartedMac.swift */; };
+		944A6E4D29A11C770032C2E3 /* GettingStartedMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4B29A11C770032C2E3 /* GettingStartedMac.swift */; };
 		9471E91F29A470C700EA623B /* event_history in Resources */ = {isa = PBXBuildFile; fileRef = 9471E91E29A470C700EA623B /* event_history */; };
 		9471E92029A470C700EA623B /* event_history in Resources */ = {isa = PBXBuildFile; fileRef = 9471E91E29A470C700EA623B /* event_history */; };
 		948C69D9297F887600FB3574 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 948C69D8297F887600FB3574 /* options.html */; };
@@ -188,9 +188,9 @@
 		944A6E38299F46270032C2E3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		944A6E3E299F46D30032C2E3 /* NostoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NostoreApp.swift; sourceTree = "<group>"; };
 		944A6E4229A081950032C2E3 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
-		944A6E4529A11C3A0032C2E3 /* GettingStartiPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartiPhone.swift; sourceTree = "<group>"; };
+		944A6E4529A11C3A0032C2E3 /* GettingStartediPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartediPhone.swift; sourceTree = "<group>"; };
 		944A6E4829A11C640032C2E3 /* GettingStartediPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartediPad.swift; sourceTree = "<group>"; };
-		944A6E4B29A11C770032C2E3 /* GettingStartedmacOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedmacOS.swift; sourceTree = "<group>"; };
+		944A6E4B29A11C770032C2E3 /* GettingStartedMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedMac.swift; sourceTree = "<group>"; };
 		9471E91E29A470C700EA623B /* event_history */ = {isa = PBXFileReference; lastKnownFileType = folder; path = event_history; sourceTree = "<group>"; };
 		948C69D8297F887600FB3574 /* options.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
 		948C69DB297F88A200FB3574 /* options.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = options.css; sourceTree = "<group>"; };
@@ -255,9 +255,9 @@
 				944A6E38299F46270032C2E3 /* MainView.swift */,
 				944A6E3E299F46D30032C2E3 /* NostoreApp.swift */,
 				944A6E4229A081950032C2E3 /* PrivacyPolicyView.swift */,
-				944A6E4529A11C3A0032C2E3 /* GettingStartiPhone.swift */,
+				944A6E4529A11C3A0032C2E3 /* GettingStartediPhone.swift */,
 				944A6E4829A11C640032C2E3 /* GettingStartediPad.swift */,
-				944A6E4B29A11C770032C2E3 /* GettingStartedmacOS.swift */,
+				944A6E4B29A11C770032C2E3 /* GettingStartedMac.swift */,
 				94AD34CC29A32458008BFFF4 /* TipsAndTricks.swift */,
 			);
 			path = "Shared (App)";
@@ -603,9 +603,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				944A6E3F299F46D30032C2E3 /* NostoreApp.swift in Sources */,
-				944A6E4629A11C3A0032C2E3 /* GettingStartiPhone.swift in Sources */,
+				944A6E4629A11C3A0032C2E3 /* GettingStartediPhone.swift in Sources */,
 				94AD34CD29A32458008BFFF4 /* TipsAndTricks.swift in Sources */,
-				944A6E4C29A11C770032C2E3 /* GettingStartedmacOS.swift in Sources */,
+				944A6E4C29A11C770032C2E3 /* GettingStartedMac.swift in Sources */,
 				941B03E6296FA90400CA291E /* ViewController.swift in Sources */,
 				944A6E4329A081950032C2E3 /* PrivacyPolicyView.swift in Sources */,
 				944A6E39299F46270032C2E3 /* MainView.swift in Sources */,
@@ -620,9 +620,9 @@
 				944A6E3A299F46270032C2E3 /* MainView.swift in Sources */,
 				944A6E40299F46D30032C2E3 /* NostoreApp.swift in Sources */,
 				94AD34CE29A32458008BFFF4 /* TipsAndTricks.swift in Sources */,
-				944A6E4729A11C3A0032C2E3 /* GettingStartiPhone.swift in Sources */,
+				944A6E4729A11C3A0032C2E3 /* GettingStartediPhone.swift in Sources */,
 				941B03E7296FA90400CA291E /* ViewController.swift in Sources */,
-				944A6E4D29A11C770032C2E3 /* GettingStartedmacOS.swift in Sources */,
+				944A6E4D29A11C770032C2E3 /* GettingStartedMac.swift in Sources */,
 				944A6E4A29A11C640032C2E3 /* GettingStartediPad.swift in Sources */,
 				944A6E4429A081950032C2E3 /* PrivacyPolicyView.swift in Sources */,
 			);

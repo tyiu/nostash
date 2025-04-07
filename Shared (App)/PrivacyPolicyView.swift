@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  PrivacyPolicyView.swift
 //  Nostore
 //
 //  Created by Ryan Breen on 2/17/23.

@@ -1,5 +1,5 @@
 //
-//  GettingStartedmacOS.swift
+//  GettingStartedMac.swift
 //  Nostore
 //
 //  Created by Ryan Breen on 2/18/23.
@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct GettingStartedmacOS: View {
+struct GettingStartedMac: View {
     var body: some View {
         ScrollView {
             Text("Getting Started")
                 .font(.largeTitle)
                 .foregroundColor(.accentColor)
-            Text("macOS")
+            Text("Mac")
                 .font(.title)
                 .foregroundColor(.accentColor)
             Text("")
@@ -49,8 +49,8 @@ Once active, the icon will become colored and you can select it again, where you
     }
 }
 
-struct GettingStartedmacOS_Previews: PreviewProvider {
+struct GettingStartedMac_Previews: PreviewProvider {
     static var previews: some View {
-        GettingStartedmacOS()
+        GettingStartedMac()
     }
 }

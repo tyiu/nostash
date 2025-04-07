@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  TipsAndTricks.swift
 //  Nostore
 //
 //  Created by Ryan Breen on 2/19/23.
@@ -34,7 +34,7 @@ struct TipsAndTricks: View {
     }
 }
 
-struct Tipsandtricks_Previews: PreviewProvider {
+struct TipsAndTricks_Previews: PreviewProvider {
     static var previews: some View {
         TipsAndTricks()
     }
