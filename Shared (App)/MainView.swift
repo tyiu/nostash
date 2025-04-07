@@ -1,6 +1,6 @@
 //
 //  MainView.swift
-//  Nostore
+//  Nostash
 //
 //  Created by Ryan Breen on 2/17/23.
 //
@@ -12,7 +12,7 @@ struct MainView: View {
         VStack {
             NavigationStack {
                 Image("bigicon").resizable().frame(width: 150.0, height: 150.0)
-                Text("Nostore").font(.title)
+                Text("Nostash").font(.title)
                 Text("A Safari Nostr Extension").font(.title2)
                 NavigationLink("Privacy Policy") {
                     PrivacyPolicyView()

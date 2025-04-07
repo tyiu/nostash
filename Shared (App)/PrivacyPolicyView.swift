@@ -1,6 +1,6 @@
 //
 //  PrivacyPolicyView.swift
-//  Nostore
+//  Nostash
 //
 //  Created by Ryan Breen on 2/17/23.
 //
@@ -15,11 +15,11 @@ struct PrivacyPolicyView: View {
                 .foregroundColor(.accentColor)
             Spacer(minLength: 20)
             Text("""
-**Nostore** is developed in the spirit of Nostr.
+**Nostash** is developed in the spirit of Nostr.
 
 You, the user, own your data. The developers of this app collect no data, anonymous or otherwise.
 
-This code of this application is fully auditable and available on our [GitHub page](https://github.com/tyiu/nostore).
+This code of this application is fully auditable and available on our [GitHub page](https://github.com/tyiu/nostash).
 """).multilineTextAlignment(.leading)
         }.padding(.all)
     }

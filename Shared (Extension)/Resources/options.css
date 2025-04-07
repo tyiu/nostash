@@ -9,7 +9,7 @@
 @layer components {
     .button {
         /* Colors */
-        @apply bg-fuchsia-900 hover:bg-fuchsia-800  active:bg-fuchsia-700 text-fuchsia-200 disabled:bg-gray-200 disabled:text-black;
+        @apply bg-nostash-blue hover:bg-nostash-gold-dark active:bg-nostash-gold text-nostash-gold-light disabled:bg-gray-200 disabled:text-black;
 
         /* Sizing and padding */
         @apply rounded-lg p-1.5 md:w-24 min-w-fit text-center;
@@ -17,7 +17,7 @@
 
     .input {
         /* Colors */
-        @apply bg-fuchsia-200 text-fuchsia-800 disabled:bg-gray-200 disabled:text-black focus:border-fuchsia-800;
+        @apply bg-nostash-gold-light text-nostash-blue disabled:bg-gray-200 disabled:text-black focus:border-nostash-blue;
 
         /* Sizing and padding */
         @apply rounded-lg p-1.5 lg:p-1.5 w-full md:w-64;
@@ -25,14 +25,14 @@
 
     .checkbox {
         /* Colors */
-        @apply text-fuchsia-800 bg-fuchsia-200 rounded-full accent-fuchsia-200;
+        @apply text-nostash-blue bg-nostash-gold-light rounded-full accent-nostash-gold-light;
 
         /* Sizing and padding */
         @apply w-4 h-4 lg:w-5 lg:h-5;
     }
 
     .section {
-        @apply border-2 border-fuchsia-700 rounded-lg p-1 md:p-5 mt-6 shadow-md;
+        @apply border-2 border-nostash-gold-dark rounded-lg p-1 md:p-5 mt-6 shadow-md;
     }
 
     .section-header {
@@ -44,6 +44,6 @@
     }
 
     a {
-        @apply border-2 border-dotted text-fuchsia-800 border-fuchsia-800 hover:border-transparent;
+        @apply border-2 border-dotted text-nostash-blue border-nostash-blue hover:border-transparent;
     }
 }

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		941B03CE296FA90400CA291E /* Nostore Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 941B03CD296FA90400CA291E /* Nostore Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		941B03D8296FA90400CA291E /* Nostore Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 941B03D7296FA90400CA291E /* Nostore Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		941B03CE296FA90400CA291E /* Nostash Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 941B03CD296FA90400CA291E /* Nostash Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		941B03D8296FA90400CA291E /* Nostash Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 941B03D7296FA90400CA291E /* Nostash Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		941B03DE296FA90400CA291E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 941B0399296FA90300CA291E /* Main.html */; };
 		941B03DF296FA90400CA291E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 941B0399296FA90300CA291E /* Main.html */; };
 		941B03E0296FA90400CA291E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 941B039B296FA90300CA291E /* Icon.png */; };
@@ -75,8 +75,8 @@
 		944A6E16299F39D30032C2E3 /* permission in Resources */ = {isa = PBXBuildFile; fileRef = 944A6E12299F39D30032C2E3 /* permission */; };
 		944A6E39299F46270032C2E3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E38299F46270032C2E3 /* MainView.swift */; };
 		944A6E3A299F46270032C2E3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E38299F46270032C2E3 /* MainView.swift */; };
-		944A6E3F299F46D30032C2E3 /* NostoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E3E299F46D30032C2E3 /* NostoreApp.swift */; };
-		944A6E40299F46D30032C2E3 /* NostoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E3E299F46D30032C2E3 /* NostoreApp.swift */; };
+		944A6E3F299F46D30032C2E3 /* NostashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E3E299F46D30032C2E3 /* NostashApp.swift */; };
+		944A6E40299F46D30032C2E3 /* NostashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E3E299F46D30032C2E3 /* NostashApp.swift */; };
 		944A6E4329A081950032C2E3 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4229A081950032C2E3 /* PrivacyPolicyView.swift */; };
 		944A6E4429A081950032C2E3 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4229A081950032C2E3 /* PrivacyPolicyView.swift */; };
 		944A6E4629A11C3A0032C2E3 /* GettingStartediPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A6E4529A11C3A0032C2E3 /* GettingStartediPhone.swift */; };
@@ -109,14 +109,14 @@
 			containerPortal = 941B0393296FA90300CA291E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 941B03CC296FA90400CA291E;
-			remoteInfo = "nostore Extension (iOS)";
+			remoteInfo = "nostash Extension (iOS)";
 		};
 		941B03D9296FA90400CA291E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 941B0393296FA90300CA291E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 941B03D6296FA90400CA291E;
-			remoteInfo = "nostore Extension (macOS)";
+			remoteInfo = "nostash Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -127,7 +127,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				941B03CE296FA90400CA291E /* Nostore Extension.appex in Embed Foundation Extensions */,
+				941B03CE296FA90400CA291E /* Nostash Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +138,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				941B03D8296FA90400CA291E /* Nostore Extension.appex in Embed Foundation Extensions */,
+				941B03D8296FA90400CA291E /* Nostash Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,15 +161,15 @@
 		941B03A8296FA90400CA291E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		941B03A9296FA90400CA291E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		941B03AA296FA90400CA291E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
-		941B03AF296FA90400CA291E /* Nostore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nostore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		941B03AF296FA90400CA291E /* Nostash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nostash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		941B03BC296FA90400CA291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		941B03C1296FA90400CA291E /* Nostore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nostore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		941B03C8296FA90400CA291E /* nostore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nostore.entitlements; sourceTree = "<group>"; };
-		941B03CD296FA90400CA291E /* Nostore Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Nostore Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941B03C1296FA90400CA291E /* Nostash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nostash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		941B03C8296FA90400CA291E /* nostash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nostash.entitlements; sourceTree = "<group>"; };
+		941B03CD296FA90400CA291E /* Nostash Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Nostash Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		941B03D2296FA90400CA291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		941B03D7296FA90400CA291E /* Nostore Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Nostore Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941B03D7296FA90400CA291E /* Nostash Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Nostash Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		941B03DC296FA90400CA291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		941B03DD296FA90400CA291E /* nostore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nostore.entitlements; sourceTree = "<group>"; };
+		941B03DD296FA90400CA291E /* nostash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nostash.entitlements; sourceTree = "<group>"; };
 		941B040C296FAD6900CA291E /* nostr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = nostr.js; sourceTree = "<group>"; };
 		941B0412297110F100CA291E /* background.build.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.build.js; sourceTree = "<group>"; };
 		941B04152971138F00CA291E /* nostr.build.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nostr.build.js; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 		944A6E02299F2FBB0032C2E3 /* experimental */ = {isa = PBXFileReference; lastKnownFileType = folder; path = experimental; sourceTree = "<group>"; };
 		944A6E12299F39D30032C2E3 /* permission */ = {isa = PBXFileReference; lastKnownFileType = folder; path = permission; sourceTree = "<group>"; };
 		944A6E38299F46270032C2E3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		944A6E3E299F46D30032C2E3 /* NostoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NostoreApp.swift; sourceTree = "<group>"; };
+		944A6E3E299F46D30032C2E3 /* NostashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NostashApp.swift; sourceTree = "<group>"; };
 		944A6E4229A081950032C2E3 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		944A6E4529A11C3A0032C2E3 /* GettingStartediPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartediPhone.swift; sourceTree = "<group>"; };
 		944A6E4829A11C640032C2E3 /* GettingStartediPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartediPad.swift; sourceTree = "<group>"; };
@@ -253,7 +253,7 @@
 				941B039F296FA90400CA291E /* Assets.xcassets */,
 				941B0398296FA90300CA291E /* Resources */,
 				944A6E38299F46270032C2E3 /* MainView.swift */,
-				944A6E3E299F46D30032C2E3 /* NostoreApp.swift */,
+				944A6E3E299F46D30032C2E3 /* NostashApp.swift */,
 				944A6E4229A081950032C2E3 /* PrivacyPolicyView.swift */,
 				944A6E4529A11C3A0032C2E3 /* GettingStartediPhone.swift */,
 				944A6E4829A11C640032C2E3 /* GettingStartediPad.swift */,
@@ -316,10 +316,10 @@
 		941B03B0296FA90400CA291E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				941B03AF296FA90400CA291E /* Nostore.app */,
-				941B03C1296FA90400CA291E /* Nostore.app */,
-				941B03CD296FA90400CA291E /* Nostore Extension.appex */,
-				941B03D7296FA90400CA291E /* Nostore Extension.appex */,
+				941B03AF296FA90400CA291E /* Nostash.app */,
+				941B03C1296FA90400CA291E /* Nostash.app */,
+				941B03CD296FA90400CA291E /* Nostash Extension.appex */,
+				941B03D7296FA90400CA291E /* Nostash Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -335,7 +335,7 @@
 		941B03C2296FA90400CA291E /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				941B03C8296FA90400CA291E /* nostore.entitlements */,
+				941B03C8296FA90400CA291E /* nostash.entitlements */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -352,7 +352,7 @@
 			isa = PBXGroup;
 			children = (
 				941B03DC296FA90400CA291E /* Info.plist */,
-				941B03DD296FA90400CA291E /* nostore.entitlements */,
+				941B03DD296FA90400CA291E /* nostash.entitlements */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
@@ -375,9 +375,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		941B03AE296FA90400CA291E /* Nostore (iOS) */ = {
+		941B03AE296FA90400CA291E /* Nostash (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 941B0402296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostore (iOS)" */;
+			buildConfigurationList = 941B0402296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostash (iOS)" */;
 			buildPhases = (
 				941B03AB296FA90400CA291E /* Sources */,
 				941B03AC296FA90400CA291E /* Frameworks */,
@@ -389,14 +389,14 @@
 			dependencies = (
 				941B03D0296FA90400CA291E /* PBXTargetDependency */,
 			);
-			name = "Nostore (iOS)";
-			productName = "nostore (iOS)";
-			productReference = 941B03AF296FA90400CA291E /* Nostore.app */;
+			name = "Nostash (iOS)";
+			productName = "nostash (iOS)";
+			productReference = 941B03AF296FA90400CA291E /* Nostash.app */;
 			productType = "com.apple.product-type.application";
 		};
-		941B03C0296FA90400CA291E /* Nostore (macOS) */ = {
+		941B03C0296FA90400CA291E /* Nostash (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 941B0409296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostore (macOS)" */;
+			buildConfigurationList = 941B0409296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostash (macOS)" */;
 			buildPhases = (
 				941B03BD296FA90400CA291E /* Sources */,
 				941B03BE296FA90400CA291E /* Frameworks */,
@@ -408,14 +408,14 @@
 			dependencies = (
 				941B03DA296FA90400CA291E /* PBXTargetDependency */,
 			);
-			name = "Nostore (macOS)";
-			productName = "nostore (macOS)";
-			productReference = 941B03C1296FA90400CA291E /* Nostore.app */;
+			name = "Nostash (macOS)";
+			productName = "nostash (macOS)";
+			productReference = 941B03C1296FA90400CA291E /* Nostash.app */;
 			productType = "com.apple.product-type.application";
 		};
-		941B03CC296FA90400CA291E /* Nostore Extension (iOS) */ = {
+		941B03CC296FA90400CA291E /* Nostash Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 941B03FE296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostore Extension (iOS)" */;
+			buildConfigurationList = 941B03FE296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostash Extension (iOS)" */;
 			buildPhases = (
 				941B03C9296FA90400CA291E /* Sources */,
 				941B03CA296FA90400CA291E /* Frameworks */,
@@ -425,14 +425,14 @@
 			);
 			dependencies = (
 			);
-			name = "Nostore Extension (iOS)";
-			productName = "nostore Extension (iOS)";
-			productReference = 941B03CD296FA90400CA291E /* Nostore Extension.appex */;
+			name = "Nostash Extension (iOS)";
+			productName = "nostash Extension (iOS)";
+			productReference = 941B03CD296FA90400CA291E /* Nostash Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		941B03D6296FA90400CA291E /* Nostore Extension (macOS) */ = {
+		941B03D6296FA90400CA291E /* Nostash Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 941B0405296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostore Extension (macOS)" */;
+			buildConfigurationList = 941B0405296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostash Extension (macOS)" */;
 			buildPhases = (
 				941B03D3296FA90400CA291E /* Sources */,
 				941B03D4296FA90400CA291E /* Frameworks */,
@@ -442,9 +442,9 @@
 			);
 			dependencies = (
 			);
-			name = "Nostore Extension (macOS)";
-			productName = "nostore Extension (macOS)";
-			productReference = 941B03D7296FA90400CA291E /* Nostore Extension.appex */;
+			name = "Nostash Extension (macOS)";
+			productName = "nostash Extension (macOS)";
+			productReference = 941B03D7296FA90400CA291E /* Nostash Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -471,7 +471,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 941B0396296FA90300CA291E /* Build configuration list for PBXProject "Nostore" */;
+			buildConfigurationList = 941B0396296FA90300CA291E /* Build configuration list for PBXProject "Nostash" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -484,10 +484,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				941B03AE296FA90400CA291E /* Nostore (iOS) */,
-				941B03C0296FA90400CA291E /* Nostore (macOS) */,
-				941B03CC296FA90400CA291E /* Nostore Extension (iOS) */,
-				941B03D6296FA90400CA291E /* Nostore Extension (macOS) */,
+				941B03AE296FA90400CA291E /* Nostash (iOS) */,
+				941B03C0296FA90400CA291E /* Nostash (macOS) */,
+				941B03CC296FA90400CA291E /* Nostash Extension (iOS) */,
+				941B03D6296FA90400CA291E /* Nostash Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -602,7 +602,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				944A6E3F299F46D30032C2E3 /* NostoreApp.swift in Sources */,
+				944A6E3F299F46D30032C2E3 /* NostashApp.swift in Sources */,
 				944A6E4629A11C3A0032C2E3 /* GettingStartediPhone.swift in Sources */,
 				94AD34CD29A32458008BFFF4 /* TipsAndTricks.swift in Sources */,
 				944A6E4C29A11C770032C2E3 /* GettingStartedMac.swift in Sources */,
@@ -618,7 +618,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				944A6E3A299F46270032C2E3 /* MainView.swift in Sources */,
-				944A6E40299F46D30032C2E3 /* NostoreApp.swift in Sources */,
+				944A6E40299F46D30032C2E3 /* NostashApp.swift in Sources */,
 				94AD34CE29A32458008BFFF4 /* TipsAndTricks.swift in Sources */,
 				944A6E4729A11C3A0032C2E3 /* GettingStartediPhone.swift in Sources */,
 				941B03E7296FA90400CA291E /* ViewController.swift in Sources */,
@@ -649,12 +649,12 @@
 /* Begin PBXTargetDependency section */
 		941B03D0296FA90400CA291E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 941B03CC296FA90400CA291E /* Nostore Extension (iOS) */;
+			target = 941B03CC296FA90400CA291E /* Nostash Extension (iOS) */;
 			targetProxy = 941B03CF296FA90400CA291E /* PBXContainerItemProxy */;
 		};
 		941B03DA296FA90400CA291E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 941B03D6296FA90400CA291E /* Nostore Extension (macOS) */;
+			target = 941B03D6296FA90400CA291E /* Nostash Extension (macOS) */;
 			targetProxy = 941B03D9296FA90400CA291E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -792,10 +792,10 @@
 				DEVELOPMENT_TEAM = S99A5B637C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "nostore Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nostash Extension";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -806,8 +806,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostore.Extension;
-				PRODUCT_NAME = "Nostore Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostash.Extension;
+				PRODUCT_NAME = "Nostash Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -824,10 +824,10 @@
 				DEVELOPMENT_TEAM = S99A5B637C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "nostore Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nostash Extension";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -838,8 +838,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostore.Extension;
-				PRODUCT_NAME = "Nostore Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostash.Extension;
+				PRODUCT_NAME = "Nostash Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -859,14 +859,14 @@
 				DEVELOPMENT_TEAM = S99A5B637C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Nostore;
+				INFOPLIST_KEY_CFBundleDisplayName = Nostash;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -878,8 +878,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostore;
-				PRODUCT_NAME = Nostore;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostash;
+				PRODUCT_NAME = Nostash;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -900,14 +900,14 @@
 				DEVELOPMENT_TEAM = S99A5B637C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Nostore;
+				INFOPLIST_KEY_CFBundleDisplayName = Nostash;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -919,8 +919,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostore;
-				PRODUCT_NAME = Nostore;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostash;
+				PRODUCT_NAME = Nostash;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -935,7 +935,7 @@
 		941B0406296FA90400CA291E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/nostore.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/nostash.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = YES;
@@ -943,7 +943,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "nostore Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nostash Extension";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -951,14 +951,14 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 2.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostore.Extension;
-				PRODUCT_NAME = "Nostore Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostash.Extension;
+				PRODUCT_NAME = "Nostash Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -969,7 +969,7 @@
 		941B0407296FA90400CA291E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/nostore.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/nostash.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = YES;
@@ -977,7 +977,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "nostore Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nostash Extension";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -985,14 +985,14 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 2.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostore.Extension;
-				PRODUCT_NAME = "Nostore Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostash.Extension;
+				PRODUCT_NAME = "Nostash Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1005,15 +1005,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/nostore.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/nostash.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = S99A5B637C;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Nostore--macOS--Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Nostore;
+				INFOPLIST_FILE = "Nostash--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Nostash;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1028,8 +1028,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostore;
-				PRODUCT_NAME = Nostore;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostash;
+				PRODUCT_NAME = Nostash;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1041,15 +1041,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/nostore.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/nostash.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = S99A5B637C;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Nostore--macOS--Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Nostore;
+				INFOPLIST_FILE = "Nostash--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Nostash;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1064,8 +1064,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostore;
-				PRODUCT_NAME = Nostore;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tyiu.nostash;
+				PRODUCT_NAME = Nostash;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1075,7 +1075,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		941B0396296FA90300CA291E /* Build configuration list for PBXProject "Nostore" */ = {
+		941B0396296FA90300CA291E /* Build configuration list for PBXProject "Nostash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				941B03FC296FA90400CA291E /* Debug */,
@@ -1084,7 +1084,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		941B03FE296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostore Extension (iOS)" */ = {
+		941B03FE296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostash Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				941B03FF296FA90400CA291E /* Debug */,
@@ -1093,7 +1093,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		941B0402296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostore (iOS)" */ = {
+		941B0402296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostash (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				941B0403296FA90400CA291E /* Debug */,
@@ -1102,7 +1102,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		941B0405296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostore Extension (macOS)" */ = {
+		941B0405296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostash Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				941B0406296FA90400CA291E /* Debug */,
@@ -1111,7 +1111,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		941B0409296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostore (macOS)" */ = {
+		941B0409296FA90400CA291E /* Build configuration list for PBXNativeTarget "Nostash (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				941B040A296FA90400CA291E /* Debug */,

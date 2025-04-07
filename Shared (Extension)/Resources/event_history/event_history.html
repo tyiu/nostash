@@ -15,7 +15,7 @@
         </style>
     </head>
 
-    <body class="text-fuchsia-900 p-3.5 lg:p-32" x-data="eventLog">
+    <body class="text-nostash-blue p-3.5 lg:p-32" x-data="eventLog">
         <p>
             <a href="/options.html" class="border-none hover:underline"
                 >← Back</a
@@ -182,7 +182,7 @@
         </div>
 
         <template x-for="(event, index) in events">
-            <div class="mt-3 border-solid border border-fuchsia-700 rounded-lg">
+            <div class="mt-3 border-solid border border-nostash-blue rounded-lg">
                 <div
                     class="select-none flex cursor-pointer text-sm md:text-xl"
                     @click="selected = selected === index ? null : index"
@@ -218,7 +218,7 @@
             </div>
         </template>
         <div
-            class="fixed top-0 right-0 bg-fuchsia-800 rounded-md p-4 text-white m-8 drop-shadow-md"
+            class="fixed top-0 right-0 bg-nostash-blue rounded-md p-4 text-white m-8 drop-shadow-md"
             x-show="copied"
             x-cloack
         >

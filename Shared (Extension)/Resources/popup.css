@@ -1,18 +1,36 @@
 :root {
     color-scheme: light dark;
+
+    --nostash-blue: #0a3b66;
+    --nostash-gold: #f4b731;
+    --nostash-gold-dark: #d29e2a;
+    --nostash-gold-light: #f9d57a;
+    --nostash-text-light: #ffffff;
+    --nostash-text-dark: #e0e0e0;
+    --nostash-bg-light: #fefefe;
+    --nostash-bg-dark: #0a1e33;
 }
 
 body {
     width: 300px;
     padding: 15px;
-
     font-family: system-ui;
+
+    background-color: var(--nostash-bg-light);
+    color: var(--nostash-blue);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--nostash-bg-dark);
+        color: var(--nostash-text-dark);
+    }
 }
 
 .relay {
     margin-top: 10px;
     font-size: 80%;
-    color: darkred;
+    color: var(--nostash-gold-dark);
 }
 
 .help {
@@ -22,5 +40,5 @@ body {
 .disclaimer {
     margin-top: 10px;
     font-size: 50%;
-    color: green;
+    color: var(--nostash-gold);
 }

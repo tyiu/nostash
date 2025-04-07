@@ -1,6 +1,6 @@
 //
-//  NostoreApp.swift
-//  Nostore
+//  NostashApp.swift
+//  Nostash
 //
 //  Created by Ryan Breen on 2/17/23.
 //
@@ -8,9 +8,9 @@
 import SwiftUI
 
 @main
-struct NostoreApp: App {
+struct NostashApp: App {
     var body: some Scene {
-        WindowGroup("Nostore") {
+        WindowGroup("Nostash") {
             MainView()
         }
         #if macOS

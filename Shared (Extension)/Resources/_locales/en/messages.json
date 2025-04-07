@@ -1,6 +1,6 @@
 {
     "extension_name": {
-        "message": "Nostore",
+        "message": "Nostash",
         "description": "Securely sign Nostr events."
     },
     "extension_description": {

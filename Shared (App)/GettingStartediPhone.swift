@@ -1,6 +1,6 @@
 //
 //  GettingStartediPhone.swift
-//  Nostore
+//  Nostash
 //
 //  Created by Ryan Breen on 2/18/23.
 //
@@ -17,7 +17,7 @@ struct GettingStartediPhone: View {
                 .font(.title)
                 .foregroundColor(.accentColor)
             Spacer(minLength: 20.0)
-            Text("Upon installation of the app, goto **Settings -> Safari -> Extension** and enable the **Nostore** extension. Then open Safari and look in the toolbar, where you will see the \(Image(systemName: "textformat.size")) icon:")
+            Text("Upon installation of the app, goto **Settings -> Safari -> Extension** and enable the **Nostash** extension. Then open Safari and look in the toolbar, where you will see the \(Image(systemName: "textformat.size")) icon:")
                 .padding([.horizontal, .top], 20)
 
             Image("iphone-url-bar")
@@ -37,7 +37,7 @@ struct GettingStartediPhone: View {
                 .padding([.top])
 
             Text("""
-The **Nostore** logo is gray, indicating the extension is inactive for this site, and must be activated first. Click on the button, and give Nostore permission to access the current site. Now the Nostore logo will appear in color, and you can click it again to access the extension.
+The **Nostash** logo is gray, indicating the extension is inactive for this site, and must be activated first. Click on the button, and give Nostash permission to access the current site. Now the Nostash logo will appear in color, and you can click it again to access the extension.
 """).multilineTextAlignment(.leading)
                 .padding([.horizontal, .top], 20)
             
