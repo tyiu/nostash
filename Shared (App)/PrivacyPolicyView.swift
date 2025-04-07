@@ -19,7 +19,7 @@ struct PrivacyPolicyView: View {
 
 You, the user, own your data. The developers of this app collect no data, anonymous or otherwise.
 
-This code of this application is fully auditable and available on our [GitHub page](https://github.com/ursuscamp/nostore).
+This code of this application is fully auditable and available on our [GitHub page](https://github.com/tyiu/nostore).
 """).multilineTextAlignment(.leading)
         }.padding(.all)
     }

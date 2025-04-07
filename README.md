@@ -1,8 +1,6 @@
 # Nostore
 
-**WARNING**: This app is no longer in support. I haven't been a Nostr or Safari user for some time and no longer have the will to maintain this application. When the Apple developer license expires, this app will drop off the App Store. If anyone wishes to fork this app and restart it, you have my blessing. Sorry for any inconvenience.
-
-This is a [NIP-07][nip07] compatible extension for signing nostr events.
+This is a [NIP-07][nip07] compatible extension for signing [nostr][nostr] events.
 
 ## Features
 
@@ -10,16 +8,6 @@ This is a [NIP-07][nip07] compatible extension for signing nostr events.
 - Post nostr event (`signEvent`).
 - Encrypted direct messages (`nip04.encrypt` and `nip04.decrypt`).
 - Multiple profiles.
-
-## Installation
-
-Available at the official [Mac App Store](https://apps.apple.com/us/app/nostore/id1666553677).
-
-<p align="center">
-  <a href="https://apps.apple.com/us/app/nostore/id1666553677">
-    <img src="/extras/mac-app-store-badge-small.svg" alt="App Store Download" />
-  </a>
-</p>
 
 ## Usage
 
@@ -29,7 +17,9 @@ Feel free to change the name and edit the key with your personal nostr key. Crea
 
 ## Acknowledgements
 
-Thanks to fiatjiaf for envisioning nostr, but also for creating [nostr-tools][nostr-tools] and the [nos2x][nos2x] extension, which I referenced liberally when stumped during development of this extension.
+Thanks to [ursuscamp][ursuscamp] for creating Nostore, which this project was forked at version 1.2.0 (c8458140e69dd30b35a31043daedcb88872a270e) and has since been archived.
+
+Thanks to [fiatjaf][fiatjaf] for envisioning nostr, but also for creating [nostr-tools][nostr-tools] and the [nos2x][nos2x] extension, which was referenced liberally when stumped during development of this extension.
 
 ## Privacy
 
@@ -37,19 +27,22 @@ This extension does not collect any user data, or transmit any data over a netwo
 
 ## Development
 
-1. Open the project in XCode.
+1. Open the project in Xcode.
 2. Open project folder in terminal.
 3. Run `npm install` to install the dependencies.
 4. Run `npm run watch` to watch and build the necessary extension files.
 5. Run `npm run watch-tailwind` to watch and build the pages with tailwinds CSS.
-6. After every rebuild, execute Run in XCode to deploy the latest changes to Safari.
+6. After every rebuild, execute Run in Xcode to deploy the latest changes to Safari.
 
 If you do not see the Nostore extension in your Safari toolbar, you need to activate unsigned extensions and Nostore:
 
-1. Safari menu -> Settings -> Advanced -> Show Develop menu in menu bar.
-2. In Develop menu, select Allow Unsigned Extension.
-3. Click Extension tab in Settings, activate Nostore.
+1. Safari menu -> Settings -> Advanced -> Show features for web developers.
+2. Click the Developer tab in Settings, select Allow unsigned extensions.
+3. Click the Extensions tab in Settings, activate Nostore.
 
+[nostr]: https://github.com/nostr-protocol
+[ursuscamp]: https://github.com/ursuscamp
+[fiatjaf]: https://github.com/fiatjaf
 [nip07]: https://github.com/nostr-protocol/nips/blob/master/07.md
 [nostr-tools]: https://github.com/nbd-wtf/nostr-tools
 [nos2x]: https://github.com/fiatjaf/nos2x
