@@ -9,6 +9,16 @@ This is a [NIP-07][nip07] compatible extension for signing [nostr][nostr] events
 - Encrypted direct messages (`nip04.encrypt` and `nip04.decrypt`).
 - Multiple profiles.
 
+## Installation
+
+Available on [TestFlight](https://testflight.apple.com/join/8TFMZbMs).
+
+<p align="center">
+  <a href="https://testflight.apple.com/join/8TFMZbMs">
+    <img src="/extras/app-store-badge-small.svg" alt="TestFlight Download" />
+  </a>
+</p>
+
 ## Usage
 
 Click the Nostash extension icon in the Safari toolbar, there should be a default profile with a new, random private key.
