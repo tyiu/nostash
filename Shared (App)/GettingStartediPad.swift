@@ -18,7 +18,7 @@ struct GettingStartediPad: View {
                 .foregroundColor(.accentColor)
             Text("")
             Text("""
-Upon installation of the app, go to **Settings -> Safari -> Extensions** and enable **Nostash**. Open Safari and look in the toolbar, where you will see the \(Image(systemName: "puzzlepiece.extension")) icon:
+Upon installation of the app, go to **Settings -> Apps -> Safari -> Extensions** and enable the **Nostash** extension. Then open Safari and look in the toolbar, where you will see the \(Image(systemName: "puzzlepiece.extension")) icon:
 """)
                 .padding([.horizontal, .top], 20)
 

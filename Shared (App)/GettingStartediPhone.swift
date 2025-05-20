@@ -17,7 +17,7 @@ struct GettingStartediPhone: View {
                 .font(.title)
                 .foregroundColor(.accentColor)
             Spacer(minLength: 20.0)
-            Text("Upon installation of the app, goto **Settings -> Safari -> Extension** and enable the **Nostash** extension. Then open Safari and look in the toolbar, where you will see the \(Image(systemName: "textformat.size")) icon:")
+            Text("Upon installation of the app, go to **Settings -> Apps -> Safari -> Extensions** and enable the **Nostash** extension. Then open Safari and look in the toolbar, where you will see the \(Image(systemName: "textformat.size")) icon:")
                 .padding([.horizontal, .top], 20)
 
             Image("iphone-url-bar")
