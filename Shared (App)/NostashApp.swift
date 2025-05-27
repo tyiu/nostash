@@ -10,11 +10,11 @@ import SwiftUI
 @main
 struct NostashApp: App {
     var body: some Scene {
-        WindowGroup("Nostash") {
+        WindowGroup {
             MainView()
         }
-        #if macOS
+#if os(macOS)
         .defaultSize(width: 400, height: 500)
-        #endif
+#endif
     }
 }
