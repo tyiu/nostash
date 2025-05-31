@@ -6,7 +6,7 @@ Nostash is a [NIP-07][nip07] compatible Safari extension for signing [Nostr][Nos
 
 - Login with Nostr (`getPublicKey`).
 - Post Nostr event (`signEvent`).
-- Encrypted direct messages (`nip04.encrypt` and `nip04.decrypt`).
+- Encryption and decryption (`nip44.encrypt`, `nip44.decrypt`, `nip04.encrypt`, `nip04.decrypt`).
 - Multiple profiles.
 
 ## Requirements
