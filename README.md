@@ -1,6 +1,6 @@
 # Nostash
 
-This is a [NIP-07][nip07] compatible extension for signing [Nostr][Nostr] events.
+Nostash is a [NIP-07][nip07] compatible Safari extension for signing [Nostr][Nostr] events that works on iPhone, iPad, and Mac.
 
 ## Features
 
@@ -9,13 +9,20 @@ This is a [NIP-07][nip07] compatible extension for signing [Nostr][Nostr] events
 - Encrypted direct messages (`nip04.encrypt` and `nip04.decrypt`).
 - Multiple profiles.
 
+## Requirements
+
+- iOS 18+
+- iPadOS 18+
+- macOS 13+
+- Safari browser
+
 ## Installation
 
-Available on [TestFlight](https://testflight.apple.com/join/8TFMZbMs).
+Download on the [App Store](https://apps.apple.com/app/nostash/id6744309333) for stable releases and [TestFlight](https://testflight.apple.com/join/8TFMZbMs) for beta releases.
 
 <p align="center">
-  <a href="https://testflight.apple.com/join/8TFMZbMs">
-    <img src="/extras/app-store-badge-small.svg" alt="TestFlight Download" />
+  <a href="https://apps.apple.com/us/app/nostash/id6744309333">
+    <img src="/extras/app-store-badge-small.svg" alt="App Store Download" />
   </a>
 </p>
 
