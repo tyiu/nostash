@@ -42,6 +42,22 @@ window.nostr = {
             });
         },
     },
+
+    nip44: {
+        async encrypt(pubKey, plainText) {
+            return await window.nostr.broadcast('nip44.encrypt', {
+                pubKey,
+                plainText,
+            });
+        },
+
+        async decrypt(pubKey, cipherText) {
+            return await window.nostr.broadcast('nip44.decrypt', {
+                pubKey,
+                cipherText,
+            });
+        },
+    },
 };
 
 window.addEventListener('message', message => {
@@ -51,6 +67,8 @@ window.addEventListener('message', message => {
         'getRelays',
         'nip04.encrypt',
         'nip04.decrypt',
+        'nip44.encrypt',
+        'nip44.decrypt',
     ].map(e => `return_${e}`);
     let { kind, reqId, payload } = message.data;
 

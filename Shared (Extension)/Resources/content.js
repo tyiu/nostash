@@ -9,6 +9,8 @@ window.addEventListener('message', async message => {
         'getRelays',
         'nip04.encrypt',
         'nip04.decrypt',
+        'nip44.encrypt',
+        'nip44.decrypt',
     ];
     let { kind, reqId, payload } = message.data;
     if (!validEvents.includes(kind)) return;

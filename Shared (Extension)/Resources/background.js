@@ -1,6 +1,7 @@
 import {
     nip04,
     nip19,
+    nip44,
     generateSecretKey,
     getPublicKey,
     finalizeEvent,
@@ -57,6 +58,8 @@ browser.runtime.onMessage.addListener((message, _sender, sendResponse) => {
         case 'signEvent':
         case 'nip04.encrypt':
         case 'nip04.decrypt':
+        case 'nip44.encrypt':
+        case 'nip44.decrypt':
         case 'getRelays':
             validations[uuid] = sendResponse;
             ask(uuid, message);
@@ -153,6 +156,12 @@ function complete({ payload, origKind, event, remember, host }) {
             case 'nip04.decrypt':
                 nip04Decrypt(event).then(e => sendResponse(e));
                 break;
+            case 'nip44.encrypt':
+                nip44Encrypt(event).then(e => sendResponse(e));
+                break;
+            case 'nip44.decrypt':
+                nip44Decrypt(event).then(e => sendResponse(e));
+                break;
             case 'getRelays':
                 getRelays().then(e => sendResponse(e));
                 break;
@@ -235,6 +244,18 @@ async function nip04Encrypt({ pubKey, plainText }) {
 async function nip04Decrypt({ pubKey, cipherText }) {
     let privKey = await getPrivKey();
     return nip04.decrypt(privKey, pubKey, cipherText);
+}
+
+async function nip44Encrypt({ pubKey, plainText }) {
+    let privKey = await getPrivKey();
+    let conversationKey = nip44.getConversationKey(privKey, pubKey)
+    return nip44.encrypt(plainText, conversationKey);
+}
+
+async function nip44Decrypt({ pubKey, cipherText }) {
+    let privKey = await getPrivKey();
+    let conversationKey = nip44.getConversationKey(privKey, pubKey)
+    return nip44.decrypt(cipherText, conversationKey);
 }
 
 async function getRelays() {

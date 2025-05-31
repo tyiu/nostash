@@ -71,9 +71,13 @@ Alpine.data('permission', () => ({
             case 'getRelays':
                 return 'Read relay list';
             case 'nip04.encrypt':
-                return 'Encrypt private message';
+                return 'Encrypt private message (NIP-04)';
             case 'nip04.decrypt':
-                return 'Decrypt private message';
+                return 'Decrypt private message (NIP-04)';
+            case 'nip44.encrypt':
+                return 'Encrypt private message (NIP-44)';
+            case 'nip44.decrypt':
+                return 'Decrypt private message (NIP-44)';
             default:
                 break;
         }
