@@ -1,6 +1,6 @@
 {
     "name": "nostash",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "",
     "source": [
         "background.js",
@@ -14,8 +14,8 @@
         "watch-tailwind": "tailwindcss -i './Shared (Extension)/Resources/options.css' -o './Shared (Extension)/Resources/options.build.css' --watch",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "Terry Yiu (https://tyiu.xyz)",
+    "license": "MIT",
     "dependencies": {
         "@alpinejs/csp": "^3.14.1",
         "alpinejs": "^3.14.1",
