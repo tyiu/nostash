@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A82CBE22DEB369D0038BB3E /* db.js in Resources */ = {isa = PBXBuildFile; fileRef = 3A82CBDF2DEB369D0038BB3E /* db.js */; };
+		3A82CBE32DEB369D0038BB3E /* utils.js in Resources */ = {isa = PBXBuildFile; fileRef = 3A82CBE02DEB369D0038BB3E /* utils.js */; };
+		3A82CBE42DEB369D0038BB3E /* db.js in Resources */ = {isa = PBXBuildFile; fileRef = 3A82CBDF2DEB369D0038BB3E /* db.js */; };
+		3A82CBE52DEB369D0038BB3E /* utils.js in Resources */ = {isa = PBXBuildFile; fileRef = 3A82CBE02DEB369D0038BB3E /* utils.js */; };
 		941B03CE296FA90400CA291E /* Nostash Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 941B03CD296FA90400CA291E /* Nostash Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		941B03D8296FA90400CA291E /* Nostash Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 941B03D7296FA90400CA291E /* Nostash Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		941B03DE296FA90400CA291E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 941B0399296FA90300CA291E /* Main.html */; };
@@ -146,6 +150,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A82CBDF2DEB369D0038BB3E /* db.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = db.js; sourceTree = "<group>"; };
+		3A82CBE02DEB369D0038BB3E /* utils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = utils.js; sourceTree = "<group>"; };
 		941B039A296FA90300CA291E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		941B039B296FA90300CA291E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		941B039C296FA90300CA291E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -233,6 +239,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A82CBE12DEB369D0038BB3E /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A82CBDF2DEB369D0038BB3E /* db.js */,
+				3A82CBE02DEB369D0038BB3E /* utils.js */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
 		941B0392296FA90300CA291E = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +324,7 @@
 				941B03A9296FA90400CA291E /* popup.css */,
 				941B03AA296FA90400CA291E /* popup.js */,
 				948C69E72982DFE900FB3574 /* background.html */,
+				3A82CBE12DEB369D0038BB3E /* utilities */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -552,6 +568,8 @@
 				941B03F4296FA90400CA291E /* content.js in Resources */,
 				941B04262977A25700CA291E /* Icon-1024.png in Resources */,
 				941B04352978CDF900CA291E /* Icon-64.png in Resources */,
+				3A82CBE22DEB369D0038BB3E /* db.js in Resources */,
+				3A82CBE32DEB369D0038BB3E /* utils.js in Resources */,
 				941B04242977A25700CA291E /* Icon-256.png in Resources */,
 				941B03FA296FA90400CA291E /* popup.js in Resources */,
 				941B04332978CDF900CA291E /* Icon-16.png in Resources */,
@@ -589,6 +607,8 @@
 				941B03F5296FA90400CA291E /* content.js in Resources */,
 				941B04272977A25700CA291E /* Icon-1024.png in Resources */,
 				941B04362978CDF900CA291E /* Icon-64.png in Resources */,
+				3A82CBE42DEB369D0038BB3E /* db.js in Resources */,
+				3A82CBE52DEB369D0038BB3E /* utils.js in Resources */,
 				941B04252977A25700CA291E /* Icon-256.png in Resources */,
 				941B03FB296FA90400CA291E /* popup.js in Resources */,
 				941B04342978CDF900CA291E /* Icon-16.png in Resources */,
