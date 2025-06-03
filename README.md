@@ -13,8 +13,8 @@ Nostash is a [NIP-07][nip07] compatible Safari extension for signing [Nostr][Nos
 
 - iOS 18+
 - iPadOS 18+
-- macOS 13+
-- Safari browser
+- macOS 15+
+- Safari 18+
 
 ## Installation
 
